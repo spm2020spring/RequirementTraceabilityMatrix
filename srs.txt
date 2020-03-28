@@ -1,0 +1,75 @@
+@RQ01
+
+If an explicit test identifier is used for a test case, use that identifier.
+
+@RQ02
+
+If no test identifier is used for a test case, generate one using hash function to return a hash value.
+
+
+@RQ03
+
+If testing status is F or Fail or Failed, show it in red the Requirement Traceability Matrix.
+
+
+@RQ04
+
+Clicking a testing status will show Input, Expected output, and Actual output.
+
+
+@RQ05
+
+Clicking a requirement ID will navigate to the corresponding requirement.
+
+@RQ06
+
+If there is no test case associated to a requirement, then the corresponding row in the matrix must be in yellow.
+
+
+@RQ07
+
+If two test identifiers are the same, report error.  
+
+
+@RQ08
+
+If two requirements are the same, report error.  
+
+
+@RQ09
+
+The program must not crash if there is no requirement in srs.txt (e.g., when srs.txt is an empty file).
+
+
+@RQ10
+
+The program must not crash if there is no test case in test.txt.
+
+
+@RQ11
+
+If srs.txt is not provided, the program must ask user to provide srs.txt.
+
+
+
+@RQ12
+
+If test.txt is not provided, the program must ask user to provide test.txt.
+
+
+@RQ13
+
+If test.txt contains a requirement identifier that does not exist in srs.txt, report error.
+
+
+@RQ14
+
+The program must not crash if both srs.txt and test.txt are empty.
+
+
+
+@RQ15
+
+When mouse over a requirement ID in the traceability matrix, the first line of the requirement must be diasplayed.
+
+

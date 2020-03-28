@@ -1,0 +1,353 @@
+@T001
+
+Test title: test case for requirement 1
+
+Test for: RQ01
+
+Description: None.
+
+Rationale: None.
+
+Input:
+
+Expected output:
+
+Actual output:
+
+Diagnosis:
+
+Status: F
+
+Signature: Hui
+
+Date: 2019-01-01
+
+#################
+
+@
+
+Test title: test case for requirement 2
+
+Test for: RQ02
+
+Description: test case
+
+Rationale: 
+
+Input:
+
+Expected output:
+
+Actual output:
+
+Diagnosis:
+
+Status: P
+
+Signature: Mr. Lan
+
+Date: 2020-03-27
+
+
+
+
+
+
+@T003
+
+Test title: make sure F status shows in red
+
+Test for: RQ03
+
+Description: test case
+
+Rationale: red can get people's immediate attention
+
+Input:
+
+>Status: F
+
+Expected output:
+
+FAILED is shown in red in Requirement Traceability Matrix.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: P
+
+Signature: Mr. Lan
+
+Date: 2020-03-28
+
+
+
+
+
+@T003b
+
+Test title: make sure Fail status shows in red
+
+Test for: RQ03
+
+Description: None
+
+Rationale: red can get people's immediate attention
+
+Input:
+
+>Status: Fail
+
+Expected output:
+
+FAILED is shown in red in Requirement Traceability Matrix.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: Fail
+
+Signature: Mr. Lan
+
+Date: 2020-03-28
+
+
+
+@T003c
+
+Test title: make sure Pass status shows in green
+
+Test for: RQ03
+
+Description: None
+
+Rationale: green can get people's immediate attention
+
+Input:
+
+>Status: Pass
+
+Expected output:
+
+FAILED is shown in red in Requirement Traceability Matrix.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: Pass
+
+Signature: Mr. Lan
+
+Date: 2020-03-28
+
+
+
+
+
+
+
+
+@
+
+Test title: yellow row if no test cases specified for that requirement
+
+Test for: RQ06
+
+Description: None.
+
+Rationale: warn people that no test has been done for that requirement
+
+Input:
+
+Status: P
+
+Expected output:
+
+Yellow row.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: P
+
+Signature: Lan Hui
+
+Date: 2020-03-28
+
+
+
+
+
+@T0708
+
+Test title: report error when two test cases or two requirements have the same identifier.
+
+Test for: RQ07, RQ08
+
+Description: None.
+
+Rationale: it should not be.  But it could happen when people copy and paste test cases.
+
+Input:
+
+In test.txt, create two test cases with the same identifier.
+
+Expected output:
+
+Error message telling us two test case identifiers are the same.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: pass
+
+Signature: Lan Hui
+
+Date: 2020-03-28
+
+
+
+@T11
+
+Test title: ask for srs.txt if not provided
+
+Test for: RQ11
+
+Description: None.
+
+Rationale: to simplify programming, we fix the file name of Software Requirements Specification to srs.txt.
+
+Input:
+
+No srs.txt is given.
+
+Expected output:
+
+Ask user to provide srs.txt.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: pass
+
+Signature: Lan Hui
+
+Date: 2020-03-28
+
+
+
+
+@T12
+
+Test title: ask for test.txt if not provided
+
+Test for: RQ12
+
+Description: None.
+
+Rationale: to simplify programming, we fix the file name of test result file to srs.txt.
+
+Input:
+
+No test.txt is given.
+
+Expected output:
+
+Ask user to provide test.txt.
+
+Actual output:
+
+Program crashed.
+
+Diagnosis:
+
+Status: f
+
+Signature: Lan Hui
+
+Date: 2020-03-28
+
+
+
+@T13
+
+Test title: requirement id mentioned in test.txt but not in srs.txt
+
+Test for: RQ13
+
+Description: None.
+
+Rationale: must let tester know that.
+
+Input:
+
+A test result where the "Test for:" field contains a requirement identifier that does not exist in srs.txt.
+
+Expected output:
+
+Let tester know that.
+
+Actual output:
+
+Nothing happenedd.
+
+Diagnosis:
+
+Status: P
+
+Signature: Lan Hui
+
+Date: 2020-03-28
+
+
+
+
+
+@T15
+
+Test title: show information for a requirement while mousing over its link in the traceability matrix
+
+Test for: RQ15
+
+Description: None.
+
+Rationale: giving reader a quick overview of the requirement can be quite useful.
+
+Input:
+
+A requirement file srs.txt.
+
+Expected output:
+
+Title for each link.
+
+Actual output:
+
+As expected.
+
+Diagnosis:
+
+Status: P
+
+Signature: Lan Hui
+
+Date: 2020-03-28
+
