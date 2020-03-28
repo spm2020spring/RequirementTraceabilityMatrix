@@ -13,6 +13,8 @@ Prepare a software requirements specification file srs.txt in the following form
 Prepare a test result file test.txt in the following format::
 
 
+    @T001
+    
     Test title: test case for requirement 1
     
     Test for: RQ01
