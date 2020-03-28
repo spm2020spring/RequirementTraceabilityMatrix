@@ -9,7 +9,7 @@
 #
 #    @RQ01
 #  
-#    This is my great requirment.
+#    This is my great requirement.
 #
 #
 # test.txt format:
@@ -331,7 +331,7 @@ Template for srs.txt
 
 @RQ01
 
-This is my great requirment.
+This is my great requirement.
 
 
 =====================
